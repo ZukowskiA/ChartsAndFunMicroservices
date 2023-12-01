@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "watch AuctionService",
+			"file": "D:\\Projects\\ChartsAndFunMicroservices\\src\\AuctionService\\AuctionService.csproj",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "dotnet: watch AuctionService"
+		},
+		{
+			"type": "dotnet",
+			"task": "watch SearchService",
+			"file": "D:\\Projects\\ChartsAndFunMicroservices\\src\\SearchService\\SearchService.csproj",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "dotnet: watch SearchService"
+		}
+	]
+}
